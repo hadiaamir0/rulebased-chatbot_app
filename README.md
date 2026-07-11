@@ -16,18 +16,6 @@ Both share the same core logic, so responses are identical across both interface
 - Graceful fallback response for unrecognized input
 - Clean exit on `bye`, `exit`, or `quit`
 
-## Project Structure
-
-```
-chatbot-project/
-├── chatbot_logic.py    # Shared response logic and knowledge base
-├── chatbot.py           # Terminal version
-├── chatbot_app.py        # Streamlit web version
-├── requirements.txt      # Python dependencies
-└── README.md
-```
-
-Separating `chatbot_logic.py` from the two interface files avoids duplicating the response rules and keeps the knowledge base easy to extend in one place.
 
 ## Requirements
 
