@@ -1,0 +1,26 @@
+"""
+chatbot.py
+
+Terminal (console) version of the DecodeLabs Project 1 rule-based chatbot.
+Run with: python chatbot.py
+"""
+
+from chatbot_logic import get_response, is_exit_command
+
+
+def run_chatbot():
+    print("Chatbot: Hello! Type 'bye' or 'exit' to end the chat.")
+
+    while True:
+        raw_input_text = input("You: ")
+
+        if is_exit_command(raw_input_text):
+            print("Chatbot: Goodbye! Have a great day.")
+            break
+
+        reply = get_response(raw_input_text)
+        print(f"Chatbot: {reply}")
+
+
+if __name__ == "__main__":
+    run_chatbot()
