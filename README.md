@@ -67,9 +67,8 @@ streamlit run chatbot_app.py
 1. **Input** — Raw user text is captured from the terminal or the Streamlit chat box.
 2. **Sanitization** — Input is lowercased and stripped of extra whitespace so `"Hello"`, `" hello "`, and `"HELLO"` all match the same rule.
 3. **Lookup** — The cleaned input is checked against a dictionary of known intents using `.get()`, which handles both the match and the fallback in a single step.
-4. **Output** — The matched (or fallback) response is printed to the console or rendered as a chat bubble.
-
-This "dictionary lookup" approach scales better than a long `if-elif` chain: lookups stay fast (O(1)) even as more rules are added, whereas an `if-elif` ladder gets slower and harder to maintain as it grows.
+4. **Output** — The matched response is printed to the console or rendered as a chat bubble.
+.
 
 ## Possible Extensions
 
