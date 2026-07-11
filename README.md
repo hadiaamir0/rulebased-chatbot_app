@@ -22,20 +22,7 @@ Both share the same core logic, so responses are identical across both interface
 - Python 3.8+
 - [Streamlit](https://streamlit.io/) (only required for the web version)
 
-## Setup
 
-Clone the repository:
-
-```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
-```
-
-(Optional but recommended) Install dependencies in a virtual environment:
-
-```bash
-pip install -r requirements.txt
-```
 
 ## Usage
 
