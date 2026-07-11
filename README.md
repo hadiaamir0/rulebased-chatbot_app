@@ -48,7 +48,6 @@ Chatbot: Goodbye! Have a great day.
 streamlit run chatbot_app.py
 ```
 
-This opens the chatbot in your browser at `http://localhost:8501` with a chat-style interface.
 
 ## Available Commands
 
