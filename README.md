@@ -104,13 +104,6 @@ This "dictionary lookup" approach scales better than a long `if-elif` chain: loo
 - Add persistent chat history across sessions
 - Swap the rule-based fallback for an LLM call to handle unrecognized input
 
-## Author
-
-Built by Hadia Amir as part of the DecodeLabs AI/ML Internship (Batch 2026).
-
-## License
-
-This project is for educational purposes as part of the DecodeLabs Industrial Training Kit.
 
 
 
